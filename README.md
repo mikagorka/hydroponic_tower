@@ -1,47 +1,37 @@
-# Hydroponic Tower
+# Hydroponic Tower Project
 
-A vertical hydroponic growing system for efficient space utilization and optimized plant growth.
+This repository contains information and resources for building and maintaining a hydroponic tower system.
 
 ## Overview
 
-This hydroponic tower system allows you to grow plants vertically, maximizing space while providing optimal nutrient delivery and environmental control.
+A hydroponic tower is a vertical growing system that allows you to grow plants without soil, using nutrient-rich water instead. This space-efficient method is perfect for urban gardening and maximizing yield in limited spaces.
 
 ## Features
 
-- Vertical tower design for space efficiency
-- Automated nutrient delivery system
-- Environmental monitoring and control
-- Modular construction for easy expansion
+- Vertical growing system
+- Space-efficient design
+- Soil-free cultivation
+- Nutrient delivery system
 
-## Nutrient Supply
+## Getting Started
 
-### Terra Aquatica TriPart Fertilizer System
-
-This system uses the Terra Aquatica TriPart fertilizer system, a comprehensive three-part nutrient solution designed for hydroponic growing:
-
-- **TriPart Grow**: Provides nitrogen and potassium for structural and vegetative growth
-- **TriPart Bloom**: Promotes flowering and fruiting with phosphorus and potassium
-- **TriPart Micro**: Delivers essential micro and secondary nutrients
-
-The TriPart system offers flexibility to adjust nutrient ratios throughout different growth stages, ensuring optimal plant development from seedling to harvest.
-
-Learn more: [Terra Aquatica TriPart](https://www.terraaquatica.com/mineral-fertiliser-solutions/tripart/)
-
-## Setup
-
-1. Assemble the tower structure
-2. Install the water pump and nutrient reservoir
-3. Connect the irrigation system
-4. Set up environmental sensors
-5. Configure the nutrient delivery schedule
+1. Set up your hydroponic tower structure
+2. Install the water pump and circulation system
+3. Prepare your nutrient solution
+4. Plant your seedlings
+5. Monitor and maintain the system
 
 ## Maintenance
 
-- Monitor pH levels (optimal range: 5.5-6.5)
-- Check EC/TDS levels regularly
-- Clean the system monthly to prevent algae buildup
-- Inspect pumps and tubing for proper operation
+- Check pH levels regularly
+- Monitor nutrient concentration
+- Clean the system periodically
+- Inspect plants for health issues
 
-## License
+## Sonstige Tipps
 
-This project is open source and available for personal and educational use.
+### Hilfreiche Video-Ressourcen
+
+- **Hydroponic Tower Tutorial**: Ein umfassendes Video über Hydroponic Towers mit praktischen Tipps und Anleitungen
+  - [YouTube: Hydroponic Tower Guide](https://www.youtube.com/watch?v=HjOwOpKufG0&t=198s)
+  - Besonders hilfreich für den Einstieg und die Optimierung Ihres Systems
