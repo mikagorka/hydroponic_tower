@@ -3,6 +3,8 @@
 Dies ist eine vollständige Zusammenfassung aller Erkenntnisse, Tipps und Abläufe, die wir rund um deinen Hydroponik-Tower zusammengestellt haben.
 
 ---
+![Hydro Tower indoor](images/IMG_7189.jpg)
+![Hydro Tower outdoor](images/IMG_8450.jpg)
 
 ## 📦 Setup & Komponenten
 
