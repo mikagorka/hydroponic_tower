@@ -1,106 +1,47 @@
-# 🌱 DIY Hydroponic Tower Projekt – Zusammenfassung aller wichtigen Infos
+# Hydroponic Tower
 
-Dies ist eine vollständige Zusammenfassung aller Erkenntnisse, Tipps und Abläufe, die wir rund um deinen Hydroponik-Tower zusammengestellt haben.
+A vertical hydroponic growing system for efficient space utilization and optimized plant growth.
 
----
-![Hydro Tower indoor](images/IMG_7189.jpeg)
-![Hydro Tower outdoor](images/IMG_8450.jpeg)
+## Overview
 
-## 📦 Setup & Komponenten
+This hydroponic tower system allows you to grow plants vertically, maximizing space while providing optimal nutrient delivery and environmental control.
 
-- **Steinwolle** als Keimmedium
-- **Keimstation** mit transparentem oder abgedunkeltem Deckel (je nach Samen)
-- **Heizmatte** zur Keimunterstützung (v. a. für Paprika & Gurken)
-- **Lichtpanel mit 3 Modi**: Weiß, Rot+Blau, Rot+Blau+Weiß
-- **Hydroponik-Tower** mit Wasserbehälter & Pumpe
+## Features
 
----
+- Vertical tower design for space efficiency
+- Automated nutrient delivery system
+- Environmental monitoring and control
+- Modular construction for easy expansion
 
-## 🌡️ Temperatur- & Lichtanforderungen pro Pflanze
+## Nutrient Supply
 
-| Pflanze        | Keimtyp       | Temp. optimal | Lichtbedarf nach Keimung |
-|----------------|---------------|---------------|----------------------------|
-| Paprika        | Dunkelkeimer  | 25–28 °C      | Hoch (Rot+Blau empfohlen)  |
-| Gurke          | Dunkelkeimer  | 22–28 °C      | Hoch (Vollspektrum ideal) |
-| Basilikum      | Lichtkeimer   | 20–25 °C      | Hoch                       |
-| Petersilie     | Dunkelkeimer  | 18–22 °C      | Mittel                     |
-| Romana-Salat   | Lichtkeimer   | 15–20 °C      | Mittel                     |
-| Rucola         | Lichtkeimer   | 15–22 °C      | Mittel                     |
+### Terra Aquatica TriPart Fertilizer System
 
----
+This system uses the Terra Aquatica TriPart fertilizer system, a comprehensive three-part nutrient solution designed for hydroponic growing:
 
-## 🌱 Keimung: Samenmenge & Handhabung
+- **TriPart Grow**: Provides nitrogen and potassium for structural and vegetative growth
+- **TriPart Bloom**: Promotes flowering and fruiting with phosphorus and potassium
+- **TriPart Micro**: Delivers essential micro and secondary nutrients
 
-- **Paprika, Gurke**: 1–2 Samen pro Würfel, schwächeren Keimling später abschneiden
-- **Romana, Rucola**: 2 Samen pro Würfel, auf besten Keimling selektieren
-- **Basilikum, Petersilie**: 1–2 Samen; bei Basilikum auch Mehrfachaussaat möglich
+The TriPart system offers flexibility to adjust nutrient ratios throughout different growth stages, ensuring optimal plant development from seedling to harvest.
 
-**Dunkelkeimer**: leicht mit Steinwollfussel abdecken oder vollständig abdunkeln  
-**Lichtkeimer**: nicht abdecken, direktes Licht nach Keimung
+Learn more: [Terra Aquatica TriPart](https://www.terraaquatica.com/mineral-fertiliser-solutions/tripart/)
 
----
+## Setup
 
-## 💡 Lichtphasen & Spektren
+1. Assemble the tower structure
+2. Install the water pump and nutrient reservoir
+3. Connect the irrigation system
+4. Set up environmental sensors
+5. Configure the nutrient delivery schedule
 
-| Phase        | Spektrum            | Dauer/Tag     |
-|--------------|---------------------|---------------|
-| Keimphase    | Weiß (leicht) oder Dunkel | 0–16 h     |
-| Nach Keimung | Weiß oder R+B+W     | 14–16 h       |
-| Fruchtbildung| Rot+Blau bevorzugt  | 12–14 h       |
+## Maintenance
 
----
+- Monitor pH levels (optimal range: 5.5-6.5)
+- Check EC/TDS levels regularly
+- Clean the system monthly to prevent algae buildup
+- Inspect pumps and tubing for proper operation
 
-## 💧 pH-Wert & Bewässerung
+## License
 
-- **Steinwolle wässern mit pH 5,5–6,0**
-- **Wasser im Tray**: nur Boden der Steinwolle berühren lassen
-- **Kein stehendes Wasser** im oberen Bereich
-- Nach dem Einsetzen in den Tower: pH regelmäßig messen & Nährlösung anpassen
-
----
-
-## 🧪 Nährstoffversorgung
-
-- **Keimphase:** nur pH-angepasstes Wasser
-- **Nach Keimung (ab 2–3 echte Blätter):** schwache Nährlösung (EC 0.6–0.8)
-- **Im Tower:** reguläre Hydro-Nährlösung (je nach Pflanzenart anpassen)
-
----
-
-## 🌿 Umpflanz-Checkliste
-
-- 2–3 Blattpaare sichtbar
-- Starke, kompakte Pflanze
-- Wurzeln kommen aus Steinwolle raus
-- Steinwollwürfel kann in größeren Würfel oder direkt in Netztopf gesteckt werden
-
----
-
-## 🌡️ Outdoor-Betrieb
-
-| Pflanze      | Mindest-Tagestemp. | Außeneinsatz geeignet? |
-|--------------|--------------------|--------------------------|
-| Paprika      | >20 °C             | ❌ Zu empfindlich bei <15 °C |
-| Gurke        | >18 °C             | ❌ Zu empfindlich          |
-| Romana       | >10 °C             | ✅ Ja, robust              |
-
-Empfehlung: Bei Outdoor-Einsatz → Mini-Gewächshaus, Windschutz, ggf. Isolierung
-
----
-
-## ⚠️ Schimmel / Rückstände in Steinwolle
-
-- Leichte weiße Punkte = meist **Salzrückstände**, nicht gefährlich
-- Flauschig/weiß → **leichter Oberflächenschimmel**
-- Maßnahmen:
-  - Oberfläche abtrocknen lassen
-  - Luftzirkulation verbessern
-  - ggf. leicht mit verd. Wasserstoffperoxid abwischen
-
----
-
-## ✅ Sonstige Tipps
-
-- Samen nicht zu tief setzen (0.5–1 cm)
-- Nicht mehrmals täglich sprühen, lieber passiv bewässern von unten
-- Dunkelkeimer ohne Abdeckung möglich, wenn Umgebung komplett dunkel
+This project is open source and available for personal and educational use.
