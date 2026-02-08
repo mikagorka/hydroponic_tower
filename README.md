@@ -2,6 +2,24 @@
 
 Dies ist eine vollständige Zusammenfassung aller Erkenntnisse, Tipps und Abläufe, die wir rund um deinen Hydroponik-Tower zusammengestellt haben.
 
+## 🚀 Automatisierung & Steuerung - Quick Links
+
+**Neu: Automatische Pumpensteuerung verfügbar!**
+
+- 📘 **[QUICK START - In 30 Minuten zur Automatisierung](QUICK_START.md)**
+- 🔧 **[Verkabelungs-Anleitung mit Schaltplänen](VERKABELUNG.md)**
+- 🛒 **[Einkaufsliste - Alle benötigten Komponenten](EINKAUFSLISTE.md)**
+- ❓ **[FAQ - Häufig gestellte Fragen & Problemlösung](FAQ.md)**
+- 💻 **Arduino Code:** `steuerung_arduino.ino`
+- 📡 **ESP32 WiFi Code:** `steuerung_esp32_wifi.ino`
+
+**Vorteile der Automatisierung:**
+- ✅ Pumpe läuft automatisch in einstellbaren Intervallen
+- ✅ Keine manuelle Steuerung nötig
+- ✅ Optional: WiFi-Steuerung & Web-Interface
+- ✅ Sensoren für Wasserstand, Temperatur, Luftfeuchtigkeit
+- ✅ Kosten: Ab ~30€ für komplette Automatisierung
+
 ---
 ![Hydro Tower indoor](images/IMG_7189.jpeg)
 ![Hydro Tower outdoor](images/IMG_8450.jpeg)
