@@ -1,0 +1,33 @@
+# AppArmor local override for bluetoothd to fix Home Assistant Bluetooth issues
+# 
+# Installation:
+# 1. Copy this file to: /etc/apparmor.d/local/usr.lib.bluetooth.bluetoothd
+#    sudo cp apparmor-bluetooth-fix /etc/apparmor.d/local/usr.lib.bluetooth.bluetoothd
+#
+# 2. Reload AppArmor profile:
+#    sudo apparmor_parser -r /etc/apparmor.d/usr.lib.bluetooth.bluetoothd
+#    (oder: sudo apparmor_parser -r /etc/apparmor.d/usr.sbin.bluetoothd)
+#
+# 3. Restart Bluetooth service:
+#    sudo systemctl restart bluetooth
+#
+# This allows DBus communication required by Home Assistant for Bluetooth operations
+
+# Allow DBus communication for Home Assistant
+dbus send
+    bus=system
+    interface=org.freedesktop.DBus
+    member=AddMatch
+    peer=(name=org.freedesktop.DBus),
+
+dbus send
+    bus=system
+    interface=org.freedesktop.DBus
+    member=RemoveMatch
+    peer=(name=org.freedesktop.DBus),
+
+dbus send
+    bus=system
+    interface=org.freedesktop.DBus
+    member=GetConnectionUnixUser
+    peer=(name=org.freedesktop.DBus),
