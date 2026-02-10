@@ -119,3 +119,11 @@ Empfehlung: Bei Outdoor-Einsatz → Mini-Gewächshaus, Windschutz, ggf. Isolieru
 ### 📺 Hilfreiche Video-Ressourcen
 
 - **Hydroponic Tower Setup & Tipps**: [YouTube Video](https://www.youtube.com/watch?v=HjOwOpKufG0&t=198s)
+
+---
+
+## 🏠 Home Assistant Integration
+
+Falls du Home Assistant auf Ubuntu zur Überwachung und Steuerung deines Hydroponic Towers verwendest und einen Bluetooth/DBus Fehler erhältst, siehe:
+
+📂 **[home-assistant/README.md](home-assistant/README.md)** - Lösung für AppArmor/Bluetooth/DBus Probleme

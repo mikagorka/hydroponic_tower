@@ -1,0 +1,85 @@
+# AppArmor profile for Home Assistant
+# This profile allows Home Assistant to access Bluetooth via DBus
+
+#include <tunables/global>
+
+/usr/bin/homeassistant {
+  #include <abstractions/base>
+  #include <abstractions/dbus-strict>
+  #include <abstractions/nameservice>
+  #include <abstractions/python>
+
+  # Allow DBus communication for Bluetooth
+  dbus (send, receive) bus=system,
+  dbus (send, receive) bus=session,
+  
+  # Allow Bluetooth specific DBus interfaces
+  dbus send
+       bus=system
+       path=/org/bluez/**
+       interface=org.freedesktop.DBus.Properties,
+  dbus send
+       bus=system
+       path=/org/bluez/**
+       interface=org.bluez.**,
+  dbus send
+       bus=system
+       path=/
+       interface=org.freedesktop.DBus.ObjectManager,
+  
+  # Allow general DBus operations
+  dbus send
+       bus=system
+       path=/org/freedesktop/DBus
+       interface=org.freedesktop.DBus
+       member=AddMatch,
+  dbus send
+       bus=system
+       path=/org/freedesktop/DBus
+       interface=org.freedesktop.DBus
+       member=RemoveMatch,
+  dbus send
+       bus=system
+       path=/org/freedesktop/DBus
+       interface=org.freedesktop.DBus
+       member=GetNameOwner,
+  dbus send
+       bus=system
+       path=/org/freedesktop/DBus
+       interface=org.freedesktop.DBus
+       member=ListNames,
+  
+  # Network access for Home Assistant
+  network inet stream,
+  network inet6 stream,
+  network inet dgram,
+  network inet6 dgram,
+  
+  # Bluetooth hardware access
+  /sys/class/bluetooth/** r,
+  /dev/rfkill rw,
+  
+  # Python and Home Assistant paths
+  /usr/bin/python3* rix,
+  /usr/lib/python3*/** mr,
+  /usr/local/lib/python3*/** mr,
+  
+  # Home Assistant directories
+  /usr/bin/homeassistant r,
+  /usr/share/homeassistant/** r,
+  /home/*/.homeassistant/** rw,
+  /config/** rw,
+  /usr/src/homeassistant/** r,
+  
+  # Temporary files
+  /tmp/** rw,
+  /var/tmp/** rw,
+  
+  # System information
+  /proc/sys/kernel/random/boot_id r,
+  /sys/devices/** r,
+  /etc/machine-id r,
+  
+  # Configuration files
+  /etc/homeassistant/** r,
+}
