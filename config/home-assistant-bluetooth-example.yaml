@@ -1,0 +1,38 @@
+# Home Assistant Bluetooth Configuration Example
+# 
+# This is an example configuration for enabling Bluetooth in Home Assistant
+# Add this to your configuration.yaml file
+
+# Bluetooth integration
+bluetooth:
+  # Adapter defaults to hci0, but you can specify if needed
+  # adapter: hci0
+
+# Example Bluetooth tracker
+device_tracker:
+  - platform: bluetooth_tracker
+    # Request permission to use device (defaults to true)
+    request_rssi: true
+    # Interval for scanning (in seconds)
+    interval_seconds: 12
+    # Consider devices away after this many seconds
+    consider_home: 180
+    # Track new devices by default
+    track_new_devices: true
+
+# Example Bluetooth Low Energy tracker
+# Useful for tracking phones or smart devices
+ble_tracker:
+  # Scan interval in seconds
+  scan_interval: 12
+  # Track new devices
+  track_new_devices: true
+
+# Alternative: Use Bluetooth integration via UI
+# In Home Assistant:
+# 1. Go to Settings -> Devices & Services
+# 2. Click "+ Add Integration"
+# 3. Search for "Bluetooth"
+# 4. Follow the setup wizard
+#
+# Note: If you see AppArmor errors, follow the troubleshooting guide in TROUBLESHOOTING.md

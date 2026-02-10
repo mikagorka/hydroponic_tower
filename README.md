@@ -2,6 +2,10 @@
 
 Dies ist eine vollständige Zusammenfassung aller Erkenntnisse, Tipps und Abläufe, die wir rund um deinen Hydroponik-Tower zusammengestellt haben.
 
+## 🔧 Wichtige Hinweise
+
+- **Home Assistant Integration**: Bei Problemen mit Bluetooth auf Ubuntu siehe [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+
 ---
 ![Hydro Tower indoor](images/IMG_7189.jpeg)
 ![Hydro Tower outdoor](images/IMG_8450.jpeg)
